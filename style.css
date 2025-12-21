@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+/* Layout */
+.container{
+    display: flex;
+}
+/* Sidebar */
+#sidebar{
+    width: 260px;
+    height: 100vh;
+    background: #8b3f3f;
+    position: fixed;
+    text-align: center;
+    padding-top: 40px;
+}
+#sidebar img{
+    width: 140px;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.4);
+    margin-bottom: 30px;
+}
+#sidebar nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#sidebar nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#sidebar nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+/* Content */
+#content{
+    margin-left: 260px;
+    padding: 60px;
+}
+section{
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 48px;
+}
+h1 span{
+    color: #8b3f3f;
+}
+#contact{
+    color: rgb(8, 45, 87);
+    margin: 20px 0 35px;
+}
+#contact a{
+    color: #8b3f3f;
+}
+#contact a:hover{
+    color: blue;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+h3{
+    font-size: 32px;
+    padding: 20px 0;
+}
+h4{
+    padding-bottom: 25px;
+    color: #333;
+}
+/* education */
+.education-type h3{
+    font-size: 32px;
+    padding: 25px 0 5px;
+}
+.education-type h4{
+    font-size: 24px;
+    color: #333;
+    padding: 2px 0 25px;
+}
+.education-type p{
+    color: #333;
+}
+/* Skills */
+.skills h3{
+    padding: 4px 0 2px;
+    color: #333;
+}
+/* interests */
+#interests h2{
+    padding: 20px 0 30px;
+}
+#interests p{
+    color: #333;
+}
+/* Awards */
+.awards li{
+    font-weight: bold;
+}
+.awards li span{
+    color: #111010;
+    font-weight: lighter;
+    
+}
