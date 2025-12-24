@@ -63,6 +63,12 @@ h1 span{
 #contact a:hover{
     color: blue;
 }
+i{
+    padding-top: 30px;
+    font-size: 30px;
+    gap: 70px;
+    margin: 0 7px;
+}
 h2{
     margin-bottom: 20px;
     font-size: 48px;
@@ -89,6 +95,9 @@ h4{
     color: #333;
 }
 /* Skills */
+#skills i{
+    padding-bottom: 20px;
+}
 .skills h3{
     padding: 4px 0 2px;
     color: #333;
